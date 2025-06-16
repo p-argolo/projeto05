@@ -4,7 +4,7 @@ import com.BaneseLabes.LocalSeguro.dto.LocationDTO;
 import com.BaneseLabes.LocalSeguro.model.Authorization;
 import com.BaneseLabes.LocalSeguro.model.SafetyPlace;
 import com.BaneseLabes.LocalSeguro.model.User;
-import com.BaneseLabes.LocalSeguro.model.Wifi.Wifi;
+import com.BaneseLabes.LocalSeguro.model.wifi.Wifi;
 import com.BaneseLabes.LocalSeguro.repository.OperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

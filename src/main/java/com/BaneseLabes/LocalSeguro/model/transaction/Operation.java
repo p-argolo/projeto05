@@ -1,6 +1,6 @@
 package com.BaneseLabes.LocalSeguro.model.transaction;
 
-import com.BaneseLabes.LocalSeguro.model.Wifi.Wifi;
+import com.BaneseLabes.LocalSeguro.model.wifi.Wifi;
 import com.BaneseLabes.LocalSeguro.model.location.Location;
 import lombok.*;
 import org.springframework.data.annotation.Id;

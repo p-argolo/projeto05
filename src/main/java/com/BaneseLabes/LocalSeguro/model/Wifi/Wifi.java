@@ -1,4 +1,4 @@
-package com.BaneseLabes.LocalSeguro.model.Wifi;
+package com.BaneseLabes.LocalSeguro.model.wifi;
 import lombok.*;
 
 @Data

@@ -1,6 +1,6 @@
 package com.BaneseLabes.LocalSeguro.model;
 
-import com.BaneseLabes.LocalSeguro.model.Wifi.Wifi;
+import com.BaneseLabes.LocalSeguro.model.wifi.Wifi;
 import com.BaneseLabes.LocalSeguro.model.location.Address;
 import com.BaneseLabes.LocalSeguro.model.location.Location;
 import lombok.Getter;
@@ -9,7 +9,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
 @Setter
 @Getter
