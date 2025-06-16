@@ -14,8 +14,9 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins("http://localhost:3000") // Frontend Next.js
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
-                        .allowedHeaders("Authorization", "Content-Type")
+                        .allowedHeaders("Authorization", "Content-Type", "X-Requested-With")
                         .allowCredentials(true)
+                        .exposedHeaders("Authorization")
                         .maxAge(3600);
             }
         };

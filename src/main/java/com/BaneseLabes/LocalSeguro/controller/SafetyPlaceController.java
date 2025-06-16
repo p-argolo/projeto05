@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/safetyPlace")
-@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", allowCredentials = "true")
+//@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", allowCredentials = "true")
 public class SafetyPlaceController {
     @Autowired
     private SafetyPlaceService safetyPlaceService;
